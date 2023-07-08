@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/nav.css">
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+        thead {
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a>
+                            <ul class="dropdown">
+                                <li><a href="video.html">Video</a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bil Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve jobs</td>
+                    <td>Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Lary Page</td>
+                    <td>Google</td>
+                    <td>$1300</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Zuku</td>
+                    <td>Facebook</td>
+                    <td>$1400</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>total Salary</td>
+                    <td colspan="3">$5000</td>
+                </tr>
+            </tfoot>
+        </table>
+        <meter value="0.6">60%</meter>
+        <progress></progress>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
